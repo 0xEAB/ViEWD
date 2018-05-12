@@ -1,11 +1,19 @@
 <?php
 
+/**
+ * GeNERATIONTiMED
+ * A page generation time plugin for the ViEWD template engine
+ */
 class GeNERATIONTiMED
 {
     const DEFAULT_VAR_NAME = 'GT';
 
     private $decimalPlaces;
 
+    /**
+     * ctor
+     * @param int $decimalPlaces Decimal places count used for output
+     */
     function __construct($decimalPlaces = 2)
     {
         $this->decimalPlaces = $decimalPlaces;

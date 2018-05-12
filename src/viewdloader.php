@@ -24,9 +24,9 @@ class ViEWDLoader
 
     /**
      * Loads a new ViEWD with the specified template
-     * @param   string $tplName Name of the template to load
-     * @param   array  $vars    Variables accessable from within the template
-     * @returns ViEWD 
+     * @param string $tplName Name of the template to load
+     * @param array  $vars    Variables accessable from within the template
+     * @returns ViEWD The loaded ViEWD
      */
     function load($tplName, $vars = [])
     {
