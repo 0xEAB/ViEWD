@@ -1,8 +1,8 @@
 <?php
 
 /**
- * ViEWD
- * A lightweight PHP template engine
+ * ViEWDLoader
+ * Template loader for the ViEWD template engine
  */
 class ViEWDLoader
 {
