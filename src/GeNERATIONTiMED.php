@@ -26,15 +26,15 @@ class GeNERATIONTiMED
     }
 
     /*
-     * @returns float How much time has passed (in sec) since the page has been requested
+     * @returns float How much time has passed (in msec) since the page has been requested
      */
     function calcPageGenerationTime()
     {
-        return round(microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'], $this->decimalPlaces);
+        return round((microtime(true) - $_SERVER['REQUEST_TIME_FLOAT']) * 1000, $this->decimalPlaces);
     }
 
     /*
-     * Binds the calcPageGenerationTime to the passed ViEWD
+     * Binds calcPageGenerationTime to the passed ViEWD
      * @param ViEWD  $viewd ViEWD to bind the function to
      * @param string $name  Name of the template variable to bind the function to
      */

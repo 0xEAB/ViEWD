@@ -1,3 +1,3 @@
 <footer>
-  <p>Page generated in <?=$GT()?>s.</p>
+  <p>Page generated in <?=$GT()?>ms.</p>
 </footer>
