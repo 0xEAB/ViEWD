@@ -2,8 +2,11 @@
 
 // Require ViEWD
 // You'll usually want to add ViEWD to your autoloader instead.
-require_once(__DIR__ . '/../src/viewd.php');
-require_once(__DIR__ . '/../src/viewdloader.php');
+require_once(__DIR__ . '/../src/ViEWD.php');
+require_once(__DIR__ . '/../src/ViEWDLoader.php');
+
+use Voidblaster\ViEWD\ViEWDLoader;
+use Voidblaster\ViEWD\ViEWD;
 
 // Create a new instance of ViEWDLoader and specify the templates directory
 $viewd = new ViEWDLoader(__DIR__ . '/templates/');

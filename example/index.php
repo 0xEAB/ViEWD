@@ -1,8 +1,12 @@
 <?php
 
-require_once __DIR__ . '/../src/viewd.php';
-require_once __DIR__ . '/../src/viewdloader.php';
-require_once __DIR__ . '/../src/generationtimed.php';
+require_once __DIR__ . '/../src/ViEWD.php';
+require_once __DIR__ . '/../src/ViEWDLoader.php';
+require_once __DIR__ . '/../src/GeNERATIONTiMED.php';
+
+use Voidblaster\ViEWD\ViEWDLoader;
+use Voidblaster\ViEWD\ViEWD;
+use Voidblaster\ViEWD\GeNERATIONTiMED;
 
 $viewd = new ViEWDLoader(__DIR__ . '/templates/');
 
@@ -19,7 +23,7 @@ $site->set('main', $main);
 
 $footer = $viewd->load('footer');
 $main->set('footer', $footer);
-$gt = new GeNERATIONTiMED(5);
+$gt = new GeNERATIONTiMED();
 $gt->bindToViEWD($footer);
 
 $site->print();
