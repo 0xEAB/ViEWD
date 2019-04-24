@@ -12,6 +12,9 @@ considered a *native* template engine.
 Just copy those modules you'd like to use in your project. Or add this repo as
 [git submodule](https://git-scm.com/docs/git-submodule).
 
+This package is also available via composer.
+Try `$  composer require voidblaster/viewd`
+
 
 ## Usage
 
