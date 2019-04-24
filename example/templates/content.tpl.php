@@ -11,7 +11,7 @@
 
 
 <h3 class="filename">example.tpl.php</h3>
-<pre><code>><?php
+<pre><code><?php
   // of course, you can call any PHP functions inside a template
   echo htmlentities(file_get_contents(
       __DIR__ . '/example.tpl.php'));
