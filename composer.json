@@ -1,5 +1,5 @@
 {
-    "name": "Voidblaster/ViEWD",
+    "name": "voidblaster/viewd",
     "description": "A lightweight PHP template engine",
     "keywords": ["template engine", "templates", "native templates"],
 
@@ -11,6 +11,6 @@
     },
 
     "autoload": {
-        "psr-4": {"Voidblaster\\ViEWD": "src/"}
+        "psr-4": {"Voidblaster\\ViEWD\\": "src/"}
     }
 }
