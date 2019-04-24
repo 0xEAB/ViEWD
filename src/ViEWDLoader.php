@@ -4,6 +4,8 @@
 //    (See accompanying file LICENSE_1_0.txt or copy at
 //          https://www.boost.org/LICENSE_1_0.txt)
 
+namespace Voidblaster\ViEWD;
+
 /**
  * ViEWDLoader
  * Template loader for the ViEWD template engine

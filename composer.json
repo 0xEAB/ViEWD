@@ -1,0 +1,16 @@
+{
+    "name": "Voidblaster/ViEWD",
+    "description": "A lightweight PHP template engine",
+    "keywords": ["template engine", "templates", "native templates"],
+
+    "authors": [{"name": "Elias Batek"}],
+    "license": "BSL-1.0",
+
+    "require": {
+        "php": ">=5.6"
+    },
+
+    "autoload": {
+        "psr-4": {"Voidblaster\\ViEWD": "src/"}
+    }
+}
